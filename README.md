@@ -108,7 +108,10 @@ end
 
 Given you are looking at a fork of a fork of a fork, and desire to modify upstream's changes against the intermediary fork:
 1. add a remote origin
-1. create a new branch
+   `git remote add grandparent git@github.com:parroty/excoveralls.git`
+1. create a new branch...
+1. pull in the changes you want to annotate
+   `git pull grandparent main`
 1. hack, hack, hack your :black_heart: away
 1. create a pull request against the intermediary
 
