@@ -104,6 +104,14 @@ end
     - the `:jason` dependency is optional and is only used if running
       `mix chaps.json`
 
+## Maintenance
+
+Given you are looking at a fork of a fork of a fork, and desire to modify upstream's changes against the intermediary fork:
+1. add a remote origin
+1. create a new branch
+1. hack, hack, hack your :black_heart: away
+1. create a pull request against the intermediary
+
 ## License/Notice
 
 This repository is a fork of
